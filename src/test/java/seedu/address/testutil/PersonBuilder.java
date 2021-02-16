@@ -31,7 +31,7 @@ public class PersonBuilder {
     private Set<Tag> tags;
 
     /**
-     * Builds a new person
+     * Builds a person
      */
     public PersonBuilder() {
         name = new Name(DEFAULT_NAME);
